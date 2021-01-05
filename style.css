@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'BMDANIEL-Bold';
+    src: url('./BMDANIEL-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'BMDANIEL-Bold', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.logo h1{
+    color: #3AC5C9;
+}
+
+.clock div span:first-child{
+ font-size: 80px;
+}
+
+.active{
+    color: #3AC5C9 !important;
+}
+
+.bg-blue{
+    background: #3AC5C9 !important;
+}
+
+.yahoo{
+    top: 0px;
+}
+
+.button-close{
+    top: 5px;
+    right: 10px;
+}
